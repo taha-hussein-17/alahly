@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 235, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+.carousel-item{
+    height: 100vh;
+}
+
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.329);
+    position: static;
+    z-index: 20;
+    
+}
+
+.navbar-cos{
+    position: fixed;
+    z-index: 30;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.sec-div{
+    background-image: url(../images/111111.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+
+.line{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(9, 31, 223);
+    transition: 0.4s;
+}
+
+.sec-dfiv{
+    transition: 0.4s;
+}
+
+.line:hover{
+    width: 150px;
+    transition: 0.4s;
+}
+.p-carouseel{
+    font-size: 20px;
+}
+.card-img-topp{
+    height: 300px;
+}
+
+.pris{
+    width: 25px;
+    height: 30px;
+    margin-left: auto;
+    position: relative;
+    visibility: hidden;
+}
+
+.sp-pris{
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.card:hover  .pris{
+    visibility: visible;
+}
+
+.Championships-pack{
+    width: 100vw;
+    min-height: 25vh;
+    background-image: url(../images/77777.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.delay{
+    width: 100vw;
+    height: 25vh;
+    height: auto;
+    background-color: rgb(39, 41, 43);
+}
+
+.delay div div i{
+    font-size: 30px
+}
+tbody td b a img{
+    height: 30px;
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+
+100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+.contact{
+    font-size: 25px;
+}
+
+.contact span {
+    margin-left: 20px;
+}
+/*------/ Socials /------*/
+.socials {
+    padding: 1.5rem 0;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  
+  /*------/ Ul resect /------*/
+  .ul-resect,
+  .widget-tags ul,
+  .widget-sidebar .list-sidebar,
+  .box-comments .list-comments,
+  .blog-wrapper .post-meta ul,
+  .list-ico,
+  .socials ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .list-ico {
+    line-height: 2;
+  }
+  
+  .list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+  }
+  
+  /*------/ Ico Circle /------*/
+  .ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+  }
+
+  .title-box {
+    margin-bottom: 4rem;
+  }
+  
+  .title-a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .subtitle-a {
+    text-decoration: none;
+    color: #4e4e4e;
+  }
+  
+  .line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+  }
+  .title-box-2 {
+    margin-bottom: 3rem;
+  }
+  
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .title-left:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+  }
+
